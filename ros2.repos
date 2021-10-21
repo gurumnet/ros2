@@ -27,14 +27,6 @@ repositories:
     type: git
     url: https://github.com/ament/uncrustify_vendor.git
     version: master
-  eclipse-cyclonedds/cyclonedds:
-    type: git
-    url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-    version: iceoryx
-  eclipse-iceoryx/iceoryx:
-    type: git
-    url: https://github.com/eclipse-iceoryx/iceoryx.git
-    version: release_1.0
   eProsima/Fast-CDR:
     type: git
     url: https://github.com/eProsima/Fast-CDR.git
@@ -47,6 +39,22 @@ repositories:
     type: git
     url: https://github.com/eProsima/foonathan_memory_vendor.git
     version: master
+  eclipse-cyclonedds/cyclonedds:
+    type: git
+    url: https://github.com/eclipse-cyclonedds/cyclonedds.git
+    version: releases/0.8.x
+  eclipse-iceoryx/iceoryx:
+    type: git
+    url: https://github.com/eclipse-iceoryx/iceoryx.git
+    version: release_1.0
+  ignition/ignition_cmake2_vendor:
+    type: git
+    url: https://github.com/ignition-release/ignition_cmake2_vendor.git
+    version: main
+  ignition/ignition_math6_vendor:
+    type: git
+    url: https://github.com/ignition-release/ignition_math6_vendor.git
+    version: main
   osrf/osrf_pycommon:
     type: git
     url: https://github.com/osrf/osrf_pycommon.git
@@ -55,18 +63,22 @@ repositories:
     type: git
     url: https://github.com/osrf/osrf_testing_tools_cpp.git
     version: master
-  ros-perception/laser_geometry:
-    type: git
-    url: https://github.com/ros-perception/laser_geometry.git
-    version: ros2
   ros-perception/image_common:
     type: git
     url: https://github.com/ros-perception/image_common.git
+    version: ros2
+  ros-perception/laser_geometry:
+    type: git
+    url: https://github.com/ros-perception/laser_geometry.git
     version: ros2
   ros-planning/navigation_msgs:
     type: git
     url: https://github.com/ros-planning/navigation_msgs.git
     version: ros2
+  ros-tooling/keyboard_handler:
+    type: git
+    url: https://github.com/ros-tooling/keyboard_handler.git
+    version: main
   ros-tooling/libstatistics_collector:
     type: git
     url: https://github.com/ros-tooling/libstatistics_collector.git
@@ -86,7 +98,7 @@ repositories:
   ros-visualization/qt_gui_core:
     type: git
     url: https://github.com/ros-visualization/qt_gui_core.git
-    version: galactic-devel
+    version: main
   ros-visualization/rqt:
     type: git
     url: https://github.com/ros-visualization/rqt.git
@@ -146,7 +158,7 @@ repositories:
   ros-visualization/rqt_topic:
     type: git
     url: https://github.com/ros-visualization/rqt_topic.git
-    version: dashing-devel
+    version: foxy-devel
   ros-visualization/tango_icons_vendor:
     type: git
     url: https://github.com/ros-visualization/tango_icons_vendor.git
@@ -178,15 +190,15 @@ repositories:
   ros/ros_tutorials:
     type: git
     url: https://github.com/ros/ros_tutorials.git
-    version: galactic-devel
+    version: rolling-devel
+  ros/urdfdom:
+    type: git
+    url: https://github.com/ros/urdfdom.git
+    version: master
   ros/urdfdom_headers:
     type: git
     url: https://github.com/ros/urdfdom_headers.git
     version: master
-  ros/urdfdom:
-    type: git
-    url: https://github.com/ros/urdfdom.git
-    version: ros2
   ros2/ament_cmake_ros:
     type: git
     url: https://github.com/ros2/ament_cmake_ros.git
