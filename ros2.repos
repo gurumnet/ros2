@@ -38,7 +38,7 @@ repositories:
   ros-perception/image_common:
     type: git
     url: https://github.com/ros-perception/image_common.git
-    version: ros2
+    version: galactic
   ros-perception/laser_geometry:
     type: git
     url: https://github.com/ros-perception/laser_geometry.git
@@ -126,7 +126,7 @@ repositories:
   ros-visualization/rqt_topic:
     type: git
     url: https://github.com/ros-visualization/rqt_topic.git
-    version: dashing-devel
+    version: foxy-devel
   ros-visualization/tango_icons_vendor:
     type: git
     url: https://github.com/ros-visualization/tango_icons_vendor.git
@@ -302,7 +302,7 @@ repositories:
   ros2/rosbag2:
     type: git
     url: https://github.com/ros2/rosbag2.git
-    version: master
+    version: galactic
   ros2/rosidl:
     type: git
     url: https://github.com/ros2/rosidl.git
